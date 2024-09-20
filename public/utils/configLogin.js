@@ -3,13 +3,14 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js';
 import { getAuth, signInWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/9.1.0/firebase-auth.js';
 
+//Configuración de Firebase
 const firebaseConfig = {
-  apiKey: "tu_apiKey",
-  authDomain: "tu_authDomain",
-  projectId: "tu_projectId",
-  storageBucket: "tu_storageBucket",
-  messagingSenderId: "tu-messagingSenderId",
-  appId: "tu_appId"
+  apiKey: "AIzaSyCwv15q532hRVur2MqHOFUoByzBOez_0kQ",
+  authDomain: "login-firebase-e39bb.firebaseapp.com",
+  projectId: "login-firebase-e39bb",
+  storageBucket: "login-firebase-e39bb.appspot.com",
+  messagingSenderId: "74831738471",
+  appId: "1:74831738471:web:97995849620f53a742c6c2"
 };
 
 // Inicializa Firebase
